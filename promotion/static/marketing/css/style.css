@@ -1,0 +1,3 @@
+.tab-nav > li:first-child+li{
+    display: none;
+}

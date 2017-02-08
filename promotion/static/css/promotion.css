@@ -1,0 +1,31 @@
+.tab-nav > li:first-child+li{
+  display: none!important;
+}
+.modal-open .modal .modal-content .tab-nav > li:first-child+li{
+  display: block!important;
+}
+body.ready fieldset{
+    width: 68%;
+}
+body.ready .help{
+    font-size: 16px;
+    color: red;
+    width: 31%;
+    font-family: 'tahoma';
+}
+@media screen and (min-width: 50em){
+  .object.full fieldset {
+      width: 70%!important;
+  }
+  .fields {
+      max-width: 100%;
+  }
+}
+#id_title{
+  width: 100%;
+  padding: 4%;
+}
+.date_time_field .help{
+  width: 100%!important;
+  font-size: 14px!important;
+}

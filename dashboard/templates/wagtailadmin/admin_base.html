@@ -1,0 +1,14 @@
+{% extends "wagtailadmin/admin_base.html" %}
+{% load staticfiles %}
+
+{% block branding_favicon %}
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" />
+{% endblock %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'css/promotion.css' %}">
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'js/promotion.js' %}"></script>
+{% endblock %}
